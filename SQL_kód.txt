@@ -1,0 +1,8 @@
+CREATE TABLE felhasznalo (
+	id int not null primary key auto_increment,
+	felh_nev varchar(25) not null,
+	iranyito_szam INT not null,
+    megye varchar(35),
+    varos varchar(25),
+    utca_hazszam varchar(50)
+);
